@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32D3D3D3"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/badge"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/flag"
+        android:layout_marginLeft="150dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="203dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/location"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="SA COVID-19 Tracer"
+        android:textColor="#006400	"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_rectangle_color"
+        android:onClick="signUp"
+        android:text="@string/sign_up"
+        android:textColor="#FFFFFF"
+
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rectangle_color2"
+        android:onClick="login"
+        android:text="@string/log_in"
+        android:textColor="#006400"
+        android:textSize="20sp" />
+</LinearLayout>

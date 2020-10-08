@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#32D3D3D3"
+    >
+
+    <ImageView
+        android:id="@+id/badge"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/flag"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/register" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop = "40dp"
+        android:textColorHint="#006400"
+        android:textColor="#006400"
+        android:inputType="textPassword"
+        android:hint="@string/password" />
+
+
+    <EditText
+        android:id="@+id/edittext_confpassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop = "10dp"
+        android:textColorHint="#006400"
+        android:textColor="#006400"
+        android:hint="@string/confpassword"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textview_lower"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textStyle="bold"
+            android:textColor="#006400"
+            android:text="Lower Case"
+            android:textSize="12sp"
+            android:padding="10dp"
+            android:onClick="moveToLogin"/>
+
+        <TextView
+            android:id="@+id/textview_upper"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textStyle="bold"
+            android:textColor="#006400"
+            android:text="Upper Case"
+            android:textSize="12sp"
+            android:padding="10dp"
+            android:onClick="moveToLogin"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/textview_digit"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textStyle="bold"
+            android:textColor="#006400"
+            android:text="Number"
+            android:textSize="12sp"
+            android:padding="10dp"
+            android:onClick="moveToLogin"/>
+
+        <TextView
+            android:id="@+id/textview_length"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textStyle="bold"
+            android:textColor="#006400"
+            android:text="8 characters"
+            android:textSize="12sp"
+            android:padding="10dp"
+            android:onClick="moveToLogin"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rectangle_color"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFF"
+        android:onClick="registerUser"/>
+
+
+</LinearLayout>

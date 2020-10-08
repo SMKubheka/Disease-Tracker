@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">COVID Tracker</string>
+    <string name="password">Password</string>
+    <string name="confpassword">Confirm Password</string>
+    <string name="email">Email address</string>
+    <string name="id">ID Number</string>
+    <string name="fname">First name</string>
+    <string name="lname">Last name</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="forgot">Forgot password</string>
+    <string name="already_registered">Already have an account?</string>
+    <string name="register">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_login">LoginActicity</string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="message">"Thanks for signing up to protect yourself and your community."</string>
+    <string name="message2">"Together we can slow the spread of COVID-19"</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_share">Share</string>
+    <string name="title_security"><![CDATA[Privacy & Security]]></string>
+    <string name="title_logOut">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_map">Check-in</string>
+    <string name="title_location">Hotspots</string>
+
+    <string name="message3">"If you choose to register with the SA COVID-19 Tracer app, your personal information
+                                will only be used by the University and out public health system for the purposes
+                                of the COVID-19 pandemic response, such as contact tracing "</string>
+
+    <string name="message4">"Which is why if you have tested positive for coronavirus (or suspect you may have been
+        exposed to it), you owe it to your loved ones to notify them about their potential exposure to COVID-19"</string>
+
+    <string name="hospital">Hospital Name</string>
+    <string name="date"> Select Diagnosis Date </string>
+    <string name="prompt">Indicate the places you have visited: </string>
+    <string name="checkIn">CHECK IN</string>
+
+    <string name="description">Below are a list of locations and the number of individuals who visited these
+         places who were or have now tested positive for COVID-19 </string>
+
+    <string name="information">Learn more about contact tracing, and how to keep you and your community safe</string>
+    <string name="bold_information">More information</string>
+
+    <string name="diagnosis">If you have tested positive for COVID-19, Let us know to help prevent its spread to others</string>
+    <string name="bold_diagnosis">Update your status</string>
+
+    <string name="recovered">If you have since recovered from COVID-19, Let us know to update your information.</string>
+    <string name="bold_recovered">Recovered</string>
+
+
+    <string name="bold_risk">Check if you are at risk</string>
+    <string name="risk">Find out whether or not you are at risk of testing positive based on the places you have visited. </string>
+
+    <string name="question">Why is this important?</string>
+
+    <string name="resource1_bold">Self-isolation vs Quarantine</string>
+    <string name="resource1">Looking after yourself while in quarantine is very important for keeping you and your community safe. </string>
+    <string name="Read_more1"><a href="https://sacoronavirus.co.za/2020/03/28/self-isolation-vs-quarantine/">Read more</a></string>
+
+    <string name="resource2_bold">Access to mental health wellbeing and services</string>
+    <string name="resource2">During this time, you may be looking for ways to help you and your community get through</string>
+    <string name="Read_more2"><a href="https://sacoronavirus.co.za/category/mental-wellbeing/">Read more</a></string>
+
+    <string name="resource4_bold">Lockdown Fitness Tutorials</string>
+    <string name="resource4">Staying active and fit is difficult during lockdown. Exercise is important to boost your immune system and reduce stress </string>
+    <string name="Read_more4"><a href="https://sacoronavirus.co.za/category/lockdown-fitness-tutorials/">Read more</a></string>
+
+    <string name="resource5_bold">Explaining COVID-19 to Kids</string>
+    <string name="resource5">Looking help and reliable information to explain COVID-19 and situation of lockdown to your kids</string>
+    <string name="Read_more5"><a href="https://sacoronavirus.co.za/category/explaining-covid-19-to-kids/">Read more</a></string>
+
+    <string name="resource3_bold">Access to health and crime services</string>
+    <string name="resource3">If you are feeling unwell or unsafe, get help and support form these numbers</string>
+    <string name="call1">COVID-19 Crisis Helpline: 0800 029 999</string>
+    <string name="call2">SAPS Crime Stop: 08600 10111</string>
+    <string name="call3">Gender-Based Violence Command Center: 0800 428 428</string>
+
+    <string name="message6">"You will be at risk if you checked in at a location that had a positive visit on the same day.\nPay attention to possible signs of illness.\nIf you start experiencing symptoms of COVID-19, then you must get tested as soon as possible."</string>
+
+    <string name="statement">All of us in South Africa are facing the challenges of COVID-19 together.</string>
+    <string name="privacy_heading1">What is the purpose for the SA Covid Tracer app?</string>
+    <string name="privacy_para1">If you choose to register with the SA COVID-19 Tracer app, your personal information will only be used by the University and our public health system for the purposes of the COVID-19 pandemic response, such as contact tracing. </string>
+
+    <string name="privacy_heading2">What happens to your information?</string>
+    <string name="body2">Any information you share with the University via the SA COVID Tracer app will not be shared
+with other Government agencies unless they are directly involved in assisting with the public health response to COVID-19. It will not be
+enforcement purposes.
+</string>
+
+    <string name="privacy_heading3">How long will my information be kept?</string>
+    <string name="body3">Information you enter about yourself including, will be stored for the duration of the COVID-19
+pandemic response, then it will be deleted. The only exception
+will be if the information has become part of your personal health record if you have COVID-19 or a potential close contact, in which information will be held as part of your
+health record after the pandemic response has ended. </string>
+
+
+    <string name="privacy_heading4">Who can I contact if I have a privacy concern?</string>
+    <string name="body4">
+If you are not satisfied with our response to any privacy-related concern you may have, you can contact the Deputy Head of Computer Science and Applied Mathematics
+
+Dr Hima Vadapalli
+Email: hima.vadapalli@wits.ac.za
+Tel: (27) (0) 11 717 6186
+</string>
+
+    <string name="privacy_heading5">Statistical information </string>
+    <string name="body5">Information collected for statistical purposes will not be linked to the personal information you provide or the profile you create.
+We may collect statistical information to help us improve the service, and understand how it is being used.
+This information is aggregated and does not identify you personally.</string>
+
+
+    <string name="diagnosisHeader">STATUS UPDATED TO POSITIVE</string>
+    <string name="RecoveredHeader">STATUS UPDATED TO NEGATIVE</string>
+
+    <string name="dateR">Select Recovery Date</string>
+    <string name="checkinfo">Check in at current location:\n\nIf the location fails to load, please click button again to refresh.\n\nCheck in at other location:\n\nPlease be accurate when entering address and check whether the prompted address is correct before you confirm.</string>
+
+
+
+</resources>

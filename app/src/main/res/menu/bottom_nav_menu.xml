@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/title_dashboard" />
+
+        <item
+            android:id="@+id/navigation_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/title_map" />
+
+        <item
+            android:id="@+id/navigation_location"
+            android:icon="@drawable/ic_location"
+            android:title="@string/title_location" />
+
+        <item
+            android:id="@+id/navigation_user"
+            android:icon="@drawable/ic_person"
+            android:title="@string/title_profile" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/navigation_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/title_share" />
+            <item
+                android:id="@+id/navigation_security"
+                android:icon="@drawable/ic_security"
+                android:title="@string/title_security" />
+            <item
+                android:id="@+id/logOut"
+                android:title="@string/title_logOut" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
